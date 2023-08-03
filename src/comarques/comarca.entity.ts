@@ -4,7 +4,7 @@ import { Municipi } from '../municipis/municipi.entity';
 @Entity('municipis_comarques')
 export class Comarca {
   @PrimaryGeneratedColumn()
-  id: number;
+  idcomarca: number;
 
   @Column()
   nom: string;
