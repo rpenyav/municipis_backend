@@ -20,6 +20,15 @@ export class Municipi {
   id: number;
 
   @Column()
+  idcomarca: number;
+
+  @Column()
+  idprovincia: number;
+
+  @Column()
+  idvegueria: number;
+
+  @Column()
   ordenacioalfa: string;
 
   @Column()
